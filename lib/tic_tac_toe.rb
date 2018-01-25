@@ -83,11 +83,20 @@ end
 
 # Define your play method below
 def play(board)
+<<<<<<< HEAD
   until over?(board)
     turn(board)
   end
   
   w = winner(board)
   puts w.nil? ? "Cat's Game!" : "Congratulations #{w}!"
+=======
+  3.times do
+    turn(board)
+    if over?(board)
+      break
+    end
+  end
+>>>>>>> 00532314cb5b0a369ad9716555ab6092fe70bb09
 end
 
