@@ -83,7 +83,6 @@ end
 
 # Define your play method below
 def play(board)
-<<<<<<< HEAD
   until over?(board)
     turn(board)
   end
@@ -97,6 +96,4 @@ def play(board)
       break
     end
   end
->>>>>>> 00532314cb5b0a369ad9716555ab6092fe70bb09
 end
-
