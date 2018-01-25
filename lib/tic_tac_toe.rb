@@ -89,7 +89,6 @@ def play(board)
   
   w = winner(board)
   puts w.nil? ? "Cat's Game!" : "Congratulations #{w}!"
-=======
   3.times do
     turn(board)
     if over?(board)
